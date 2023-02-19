@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.waragainstbots.ChooseController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/start-bg.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="87.0" layoutY="41.0" prefHeight="90.0" prefWidth="327.0" style="-fx-background-color: #FEF2D9; -fx-background-radius: 15; -fx-border-color: #6B503B; -fx-border-style: solid; -fx-border-width: 6; -fx-border-radius: 10;" text="Рівень складності" textAlignment="CENTER" textFill="#6b503b" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="mediumLevelButton" layoutX="174.0" layoutY="165.0" mnemonicParsing="false" onAction="#mediumLevel" prefHeight="70.0" prefWidth="150.0" style="-fx-background-color: #6B503B; -fx-background-radius: 5;" text="Середній" textFill="#fef2d9">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="easyLevelButton" layoutX="10.0" layoutY="165.0" mnemonicParsing="false" onAction="#easyLevel" prefHeight="70.0" prefWidth="150.0" style="-fx-background-color: #6B503B; -fx-background-radius: 5;" text="Легкий" textFill="#fef2d9" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="receiveChoiceButton" layoutX="153.0" layoutY="269.0" mnemonicParsing="false" onAction="#receiveChoice" prefHeight="80.0" prefWidth="195.0" style="-fx-background-color: #6B503B; -fx-background-radius: 50;" text="Обрати!" textFill="#fef2d9" AnchorPane.bottomAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="hardLevelButton" layoutX="340.0" layoutY="165.0" mnemonicParsing="false" onAction="#hardLevel" prefHeight="70.0" prefWidth="150.0" style="-fx-background-color: #6B503B; -fx-background-radius: 5;" text="Складний" textFill="#fef2d9" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

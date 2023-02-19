@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="832.0" maxWidth="1275.0" minHeight="832.0" minWidth="1275.0" prefHeight="832.0" prefWidth="1275.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.waragainstbots.GameController">
+   <children>
+      <ImageView fitHeight="832.0" fitWidth="1275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/game-bg.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="resultsLabel" alignment="CENTER" layoutX="371.0" layoutY="331.0" opacity="0.0" prefHeight="172.0" prefWidth="325.0" style="-fx-background-color: #FEF2D9; -fx-background-radius: 15; -fx-border-color: #6B503B; -fx-border-style: solid; -fx-border-width: 6; -fx-border-radius: 10;" textAlignment="CENTER" textFill="#6b503b">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="packCard" fitHeight="201.0" fitWidth="200.0" layoutX="749.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background-card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="220.0" fitWidth="170.0" layoutX="742.95849609375" layoutY="312.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="367.8018798828125">
+         <image>
+            <Image url="@images/pack.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <Label fx:id="globalMessageLabel" alignment="CENTER" layoutX="415.0" layoutY="239.0" opacity="0.0" prefHeight="56.0" prefWidth="446.0" style="-fx-background-color: #FEF2D9; -fx-background-radius: 15; -fx-border-color: #6B503B; -fx-border-style: solid; -fx-border-width: 6; -fx-border-radius: 10;" textAlignment="CENTER" textFill="#6b503b">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="cardCenterBButton" layoutX="557.0" layoutY="316.0" mnemonicParsing="false" opacity="0.0" prefHeight="200.0" prefWidth="138.21" />
+      <Button fx:id="cardCenterAButton" layoutX="371.0" layoutY="316.0" mnemonicParsing="false" opacity="0.0" prefHeight="200.0" prefWidth="138.21" AnchorPane.leftAnchor="371.0" />
+      <Button fx:id="card1Button" layoutX="78.0" layoutY="905.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.leftAnchor="30.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card2Button" layoutX="184.0" layoutY="845.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.leftAnchor="150.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card3Button" layoutX="299.0" layoutY="905.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.leftAnchor="270.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card4Button" layoutX="385.0" layoutY="845.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.leftAnchor="390.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card5Button" layoutX="493.0" layoutY="905.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.leftAnchor="510.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card6Button" layoutX="627.0" layoutY="845.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.rightAnchor="509.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card7Button" layoutX="699.0" layoutY="905.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.rightAnchor="390.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card8Button" layoutX="867.0" layoutY="845.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.rightAnchor="269.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card9Button" layoutX="987.0" layoutY="905.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.rightAnchor="149.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="card10Button" layoutX="1107.0" layoutY="845.0" mnemonicParsing="false" onAction="#moveCard" prefHeight="200.0" prefWidth="138.21" AnchorPane.rightAnchor="29.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="cardPlayer2Button" layoutX="569.0" layoutY="20.0" mnemonicParsing="false" prefHeight="199.0" prefWidth="138.21" />
+      <ImageView fitHeight="200.0" fitWidth="344.21" layoutX="466.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" rotate="180.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@images/hand.png" />
+         </image>
+         <viewport>
+            <Rectangle2D height="200.0" width="344.21" />
+         </viewport>
+      </ImageView>
+      <Button fx:id="startGameButton" layoutX="371.0" layoutY="376.0" mnemonicParsing="false" onAction="#startGame" prefHeight="80.0" prefWidth="325.0" style="-fx-background-color: #6B503B; -fx-background-radius: 10;" text="Почати роздачу" textFill="#fef2d9">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="819.0" layoutY="20.0" prefHeight="40.0" prefWidth="139.0" style="-fx-background-color: #FEF2D9; -fx-background-radius: 15; -fx-border-color: #6B503B; -fx-border-style: solid; -fx-border-width: 6; -fx-border-radius: 10;" text="Гравець 2" textAlignment="CENTER" textFill="#6b503b">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="messageLabelPlayer2" alignment="CENTER" layoutX="819.0" layoutY="73.0" opacity="0.0" prefHeight="40.0" prefWidth="139.0" style="-fx-background-color: #FEF2D9; -fx-background-radius: 15; -fx-border-color: #6B503B; -fx-border-style: solid; -fx-border-width: 3; -fx-border-radius: 10;" textAlignment="CENTER" textFill="#6b503b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="skipButton" disable="true" layoutX="906.0" layoutY="465.0" mnemonicParsing="false" onAction="#skipTurn" opacity="0.0" prefHeight="40.0" prefWidth="140.0" style="-fx-background-color: #6B503B; -fx-background-radius: 10;" text="Пропустити хід" textFill="#fef2d9">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

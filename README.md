@@ -12,9 +12,9 @@ This is a multi-window desktop card game where you need to kill at least 10 bots
 * Java FX
 * Multithreading and animations
 ## Interface
-![image](https://user-images.githubusercontent.com/89968126/222858114-3169b021-444e-4605-8a74-db122c4a7d5f.png)
-##
 ![image](https://user-images.githubusercontent.com/89968126/222857965-65d7f01c-89b7-4378-9032-207ecbc06bc1.png)
+##
+![image](https://user-images.githubusercontent.com/89968126/222858114-3169b021-444e-4605-8a74-db122c4a7d5f.png)
 ##
 ![image](https://user-images.githubusercontent.com/89968126/222857647-94aa9a7d-7d65-4d3a-b774-27f4bdf665d3.png)
 ##

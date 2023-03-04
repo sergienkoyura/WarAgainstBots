@@ -1,5 +1,5 @@
 # Desktop game "War against bots"
-This is a multi-window desktop card game where you need to kill at least 10 bots to win ([Game rules](http://de.shram.kiev.ua/games/cards/2_voina_s_botami.shtml)).
+It is a multi-window desktop card game where you need to kill at least 10 bots to win ([Game rules](http://de.shram.kiev.ua/games/cards/2_voina_s_botami.shtml)).
 ## Functionality
 * 3 levels of difficulty
 * draw before each game

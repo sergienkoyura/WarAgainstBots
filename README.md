@@ -8,7 +8,7 @@ It is a multi-window desktop card game with UI where you need to kill at least 1
 * check the result after each round
 * the whole process of game is animated
 ## Technologies
-* Java 8
+* Java 18
 * Java FX
 * Multithreading and animations
 ## Interface
